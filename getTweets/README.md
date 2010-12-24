@@ -6,13 +6,19 @@ getTweets
 How to use:
 -----------
  
-  <?php
+<?php
+  
+  //include twitter.class API
   include('twitter.class.php');
+
   //enter screen name
   $screen_name = 'thinkphp';
+
   //enter number of tweets  
   $amount = 10; 
+
   //true/false for linkify the tweets
   $obj = new GetTweetsFrom($screen_name,$amount,true);
+
   echo$obj; 
-  ?>
+?>
