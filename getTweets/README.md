@@ -1,5 +1,6 @@
 getTweets
 ---------
+This class based on PHP can be used to get formated XHTML containing an avatar, n number of tweets for a given Twitter user.
 
 ![Screenshot](http://farm6.static.flickr.com/5090/5287726320_8a79e7b214_b.jpg)
 
@@ -15,5 +16,6 @@ How to use:
         $amount = 10; 
         //true/false for linkify the tweets
         $obj = new GetTweetsFrom($screen_name,$amount,true);
+        //echo the object
         echo$obj; 
         ?>
