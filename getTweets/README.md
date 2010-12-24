@@ -22,6 +22,6 @@ How to use:
 
 You can view in action: 
 
-* http://thinkphp.ro/apps/php-hacks/twitter-hacks/getTweets/v1.0/
-* http://thinkphp.ro/apps/php-hacks/twitter-hacks/getTweets/v1.1/
-* http://thinkphp.ro/apps/php-hacks/twitter-hacks/getTweets/v1.3/
+* [http://thinkphp.ro/apps/php-hacks/twitter-hacks/getTweets/v1.0/](http://thinkphp.ro/apps/php-hacks/twitter-hacks/getTweets/v1.0/)
+* [http://thinkphp.ro/apps/php-hacks/twitter-hacks/getTweets/v1.1/](http://thinkphp.ro/apps/php-hacks/twitter-hacks/getTweets/v1.1/)
+* [http://thinkphp.ro/apps/php-hacks/twitter-hacks/getTweets/v1.3/](http://thinkphp.ro/apps/php-hacks/twitter-hacks/getTweets/v1.3/)
