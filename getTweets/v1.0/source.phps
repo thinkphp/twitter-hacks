@@ -1,7 +1,9 @@
 <?php
+
    if(isset($_GET['user']) && $_GET['user'] != '') {
        $screen_name = $_GET['user'];
    } else {
+
        $screen_name = 'codepo8';
    }
   /**
@@ -10,7 +12,7 @@
     */
     function retrieve_status($twitter_id) {
 
-        $url = "http://twitter.com/statuses/user_timeline/$twitter_id.xml";
+        $url = "http://api.twitter.com/1/statuses/user_timeline/$twitter_id.xml";
         $ch = curl_init();
         curl_setopt($ch,CURLOPT_URL,$url);
         curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);

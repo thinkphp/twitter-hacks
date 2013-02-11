@@ -16,7 +16,7 @@ class GetTweetsFrom {
  
   /* data members */
   private $data;
-  private $url = "http://twitter.com/statuses/user_timeline/";
+  private $url = "http://api.twitter.com/1/statuses/user_timeline/";
   public $screen_name = 'thinkphp';
   public $number_of_tweets = 5;   
   public $tweetify = FALSE;

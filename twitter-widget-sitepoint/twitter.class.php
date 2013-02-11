@@ -59,7 +59,7 @@ class TwitterStatus {
             if($this->ID != '' && $this->count > 0) {
                $c = curl_init();  
                curl_setopt_array($c, array(  
-                   CURLOPT_URL => 'http://twitter.com/statuses/user_timeline/' . $this->ID . '.json?count=' . $this->Count,  
+                   CURLOPT_URL => 'http://api.twitter.com/1/statuses/user_timeline/' . $this->ID . '.json?count=' . $this->Count,  
                    CURLOPT_HEADER => false,  
                    CURLOPT_TIMEOUT => 10,  
                    CURLOPT_RETURNTRANSFER => true  
@@ -83,7 +83,7 @@ class TwitterStatus {
          /* we can calculate the number of seconds which have expired since the file was created (assuming it exists) */
          $cacheage = (file_exists($cache) ? time() - filemtime($cache) : -1 );
 
-         /* if the file doesn't exist or the number of seconds is greater than  $cacheFor 
+         /* if the file doesn't exists or the number of seconds is greater than  $cacheFor 
           * we need to re-generate the HTML widget cache file. 
           */
          if($cacheage < 0 || $cacheage > $this->cacheFor) {

@@ -29,7 +29,7 @@
 <?php
     $person1 = isset($_GET['person1']) ? $_GET['person1'] : 'thinkphp';
     $person2 = isset($_GET['person2']) ? $_GET['person2'] : 'mootools';
-    $url = "http://twitter.com/friendships/exists";
+    $url = "http://api.twitter.com/1/friendships/exists";
     $format = "xml";
     $url2 = sprintf("$url.%s?user_a=%s&user_b=%s",$format,$person1,$person2);  
     $url = $url.'.'.$format.'?user_a='.$person1.'&user_b='.$person2;
