@@ -12,4 +12,4 @@ Object Oriented Programming. Our objectives are to:
 - cache the widget HTML so the fetching process is not required during every page load.
 - make the resulting widget work in all browsers - yes, that includes IE6.
 
-Twitter REST API: http://twitter.com/statuses/user_timeline/user_id.format?count=N
+Twitter REST API: https://api.twitter.com/1/statuses/user_timeline/thinkphp.json?count=10
