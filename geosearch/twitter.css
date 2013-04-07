@@ -1,0 +1,32 @@
+a:visited, a:hover, a:link, a:active {
+	color: white;
+	text-decoration: none;
+}
+
+label {
+	display: inline;
+}
+
+.cute {
+	margin-left: 1px;
+	width: 13px;
+	height: 13px;
+}
+
+input[type=text]{			
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+      margin-top: 20px; 
+      margin-left: 20px;
+      height: 30px;  
+}
+
+input[type=text]:focus{
+      -webkit-box-shadow:0 0 25px #ccc;
+	-moz-box-shadow:0 0 25px #ccc;
+	box-shadow:0 0 25px #ccc;
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      transform: scale(1.05);
+}
